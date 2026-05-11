@@ -59,6 +59,16 @@ export function BackgroundVideo() {
       }
     };
 
+    // Slow the background footage to ~1/3 speed for a calmer ambience.
+    const SLOWMO = 1 / 3;
+    const applyRate = () => { try { video.playbackRate = SLOWMO; } catch {} };
+    applyRate();
+    video.addEventListener("loadedmetadata", applyRate);
+    video.addEventListener("play", applyRate);
+    video.addEventListener("ratechange", () => {
+      if (Math.abs(video.playbackRate - SLOWMO) > 0.01) applyRate();
+    });
+
     video.addEventListener("playing", start);
     video.addEventListener("pause", stop);
     video.addEventListener("ended", stop);
