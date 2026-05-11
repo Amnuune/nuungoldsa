@@ -11,6 +11,7 @@ import {
 import appCss from "../styles.css?url";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
+import { BackgroundVideo } from "@/components/site/BackgroundVideo";
 
 function NotFoundComponent() {
   return (
@@ -103,6 +104,7 @@ function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   return (
     <QueryClientProvider client={queryClient}>
+      <BackgroundVideo />
       <Header />
       <main className="min-h-[60vh]">
         <Outlet />
