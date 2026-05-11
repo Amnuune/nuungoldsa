@@ -11,7 +11,7 @@ export function Footer() {
                 N
               </span>
               <span className="font-display text-lg">
-                Nuun <span className="text-gradient-gold">Bots</span>
+                Nuun <span className="text-gradient-gold">Golds</span>
               </span>
             </div>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs">
@@ -52,12 +52,12 @@ export function Footer() {
         <p className="text-xs text-muted-foreground leading-relaxed">
           <strong className="text-foreground">Risk Warning:</strong> Trading foreign exchange, CFDs, and other leveraged
           products carries a high level of risk and may not be suitable for all investors. Past performance is not
-          indicative of future results. You may lose all of your invested capital. Nuun Bots provides educational tools
+          indicative of future results. You may lose all of your invested capital. Nuun Golds provides educational tools
           and software only — we are not a licensed financial advisor.
         </p>
 
         <p className="mt-6 text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Nuun Bots. All rights reserved.
+          © {new Date().getFullYear()} Nuun Golds. All rights reserved.
         </p>
       </div>
     </footer>

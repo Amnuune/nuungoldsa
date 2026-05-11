@@ -3,8 +3,8 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/legal/terms")({
   head: () => ({
     meta: [
-      { title: "Terms of Service — Nuun Bots" },
-      { name: "description", content: "Terms of Service for Nuun Bots." },
+      { title: "Terms of Service — Nuun Golds" },
+      { name: "description", content: "Terms of Service for Nuun Golds." },
     ],
   }),
   component: () => (
@@ -12,7 +12,7 @@ export const Route = createFileRoute("/legal/terms")({
       <h1 className="font-display text-4xl mb-6">Terms of Service</h1>
       <p className="text-muted-foreground">Last updated: {new Date().toLocaleDateString()}</p>
       <div className="mt-8 space-y-5 text-muted-foreground leading-relaxed">
-        <p>By purchasing or using any product or service from Nuun Bots ("we", "us", "our") via nuunbots.com, you agree to these terms.</p>
+        <p>By purchasing or using any product or service from Nuun Golds ("we", "us", "our") via nuunbots.com, you agree to these terms.</p>
         <h2 className="font-display text-xl text-foreground mt-8">1. Products</h2>
         <p>We sell digital trading software (expert advisors), trading signals, and educational courses. All products are for personal use unless otherwise agreed.</p>
         <h2 className="font-display text-xl text-foreground mt-8">2. License</h2>
@@ -22,7 +22,7 @@ export const Route = createFileRoute("/legal/terms")({
         <h2 className="font-display text-xl text-foreground mt-8">4. No financial advice</h2>
         <p>Nothing on this site constitutes financial, investment, or trading advice. You are solely responsible for your trading decisions.</p>
         <h2 className="font-display text-xl text-foreground mt-8">5. Liability</h2>
-        <p>To the maximum extent permitted by law, Nuun Bots is not liable for any losses, damages, or claims arising from the use of our products.</p>
+        <p>To the maximum extent permitted by law, Nuun Golds is not liable for any losses, damages, or claims arising from the use of our products.</p>
         <h2 className="font-display text-xl text-foreground mt-8">6. Contact</h2>
         <p>Questions about these terms? Email support@nuunbots.com.</p>
       </div>

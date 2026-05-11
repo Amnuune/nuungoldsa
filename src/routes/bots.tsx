@@ -7,9 +7,9 @@ import { ProductCard } from "@/components/site/ProductCard";
 export const Route = createFileRoute("/bots")({
   head: () => ({
     meta: [
-      { title: "Trading Bots — Nuun Bots" },
+      { title: "Trading Bots — Nuun Golds" },
       { name: "description", content: "Premium MT4 and MT5 expert advisors with built-in risk management." },
-      { property: "og:title", content: "Trading Bots — Nuun Bots" },
+      { property: "og:title", content: "Trading Bots — Nuun Golds" },
       { property: "og:description", content: "Premium MT4 and MT5 expert advisors with built-in risk management." },
     ],
   }),

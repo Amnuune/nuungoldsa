@@ -13,10 +13,10 @@ const faqs = [
 export const Route = createFileRoute("/faq")({
   head: () => ({
     meta: [
-      { title: "FAQ — Nuun Bots" },
-      { name: "description", content: "Answers to common questions about Nuun Bots EAs, signals, courses, and delivery." },
-      { property: "og:title", content: "FAQ — Nuun Bots" },
-      { property: "og:description", content: "Answers to common questions about Nuun Bots." },
+      { title: "FAQ — Nuun Golds" },
+      { name: "description", content: "Answers to common questions about Nuun Golds EAs, signals, courses, and delivery." },
+      { property: "og:title", content: "FAQ — Nuun Golds" },
+      { property: "og:description", content: "Answers to common questions about Nuun Golds." },
     ],
   }),
   component: FaqPage,

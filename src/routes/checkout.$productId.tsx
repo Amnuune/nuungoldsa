@@ -9,7 +9,7 @@ import { ArrowLeft, Lock } from "lucide-react";
 export const Route = createFileRoute("/checkout/$productId")({
   head: () => ({
     meta: [
-      { title: "Checkout — Nuun Bots" },
+      { title: "Checkout — Nuun Golds" },
       { name: "description", content: "Secure checkout." },
       { name: "robots", content: "noindex" },
     ],

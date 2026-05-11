@@ -4,10 +4,10 @@ import { Mail, MessageCircle } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Nuun Bots" },
-      { name: "description", content: "Get in touch with the Nuun Bots team. We answer fast." },
-      { property: "og:title", content: "Contact — Nuun Bots" },
-      { property: "og:description", content: "Get in touch with the Nuun Bots team." },
+      { title: "Contact — Nuun Golds" },
+      { name: "description", content: "Get in touch with the Nuun Golds team. We answer fast." },
+      { property: "og:title", content: "Contact — Nuun Golds" },
+      { property: "og:description", content: "Get in touch with the Nuun Golds team." },
     ],
   }),
   component: ContactPage,

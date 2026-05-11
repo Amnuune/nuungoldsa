@@ -4,7 +4,7 @@ import { XCircle } from "lucide-react";
 export const Route = createFileRoute("/checkout/cancel")({
   head: () => ({
     meta: [
-      { title: "Payment cancelled — Nuun Bots" },
+      { title: "Payment cancelled — Nuun Golds" },
       { name: "robots", content: "noindex" },
     ],
   }),

@@ -16,7 +16,7 @@ import { LogOut, Check } from "lucide-react";
 export const Route = createFileRoute("/admin")({
   head: () => ({
     meta: [
-      { title: "Admin — Nuun Bots" },
+      { title: "Admin — Nuun Golds" },
       { name: "robots", content: "noindex" },
     ],
   }),
