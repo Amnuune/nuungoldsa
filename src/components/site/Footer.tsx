@@ -11,7 +11,7 @@ export function Footer() {
                 N
               </span>
               <span className="font-display text-lg">
-                Nuun <span className="text-gradient-gold">Bots</span>
+                Nuun <span className="text-gradient-gold">Golds</span>
               </span>
             </div>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs">

@@ -22,7 +22,7 @@ export function Header() {
             N
           </span>
           <span className="font-display text-xl tracking-tight">
-            Nuun <span className="text-gradient-gold">Bots</span>
+            Nuun <span className="text-gradient-gold">Golds</span>
           </span>
         </Link>
 
