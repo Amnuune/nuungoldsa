@@ -7,9 +7,9 @@ import { ProductCard } from "@/components/site/ProductCard";
 export const Route = createFileRoute("/courses")({
   head: () => ({
     meta: [
-      { title: "Trading Courses — Nuun Bots" },
+      { title: "Trading Courses — Nuun Golds" },
       { name: "description", content: "Step-by-step trading courses: price action, risk management, and prop firm playbooks." },
-      { property: "og:title", content: "Trading Courses — Nuun Bots" },
+      { property: "og:title", content: "Trading Courses — Nuun Golds" },
       { property: "og:description", content: "Step-by-step trading courses: price action, risk management, and prop firm playbooks." },
     ],
   }),

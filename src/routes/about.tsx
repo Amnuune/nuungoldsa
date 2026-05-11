@@ -4,10 +4,10 @@ import { Target, Users, TrendingUp } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Nuun Bots" },
-      { name: "description", content: "Nuun Bots builds premium trading software, signals, and education for serious traders." },
-      { property: "og:title", content: "About — Nuun Bots" },
-      { property: "og:description", content: "Nuun Bots builds premium trading software, signals, and education for serious traders." },
+      { title: "About — Nuun Golds" },
+      { name: "description", content: "Nuun Golds builds premium trading software, signals, and education for serious traders." },
+      { property: "og:title", content: "About — Nuun Golds" },
+      { property: "og:description", content: "Nuun Golds builds premium trading software, signals, and education for serious traders." },
     ],
   }),
   component: AboutPage,
@@ -16,9 +16,9 @@ export const Route = createFileRoute("/about")({
 function AboutPage() {
   return (
     <section className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="font-display text-4xl">About <span className="text-gradient-gold">Nuun Bots</span></h1>
+      <h1 className="font-display text-4xl">About <span className="text-gradient-gold">Nuun Golds</span></h1>
       <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-        Nuun Bots is a trading-tech studio building premium expert advisors, signals, and courses
+        Nuun Golds is a trading-tech studio building premium expert advisors, signals, and courses
         for traders who treat the markets like a business — not a casino.
       </p>
       <p className="mt-4 text-muted-foreground leading-relaxed">

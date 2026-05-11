@@ -8,7 +8,7 @@ import { ArrowRight, Bot, Radio, GraduationCap, Shield, Zap, Mail } from "lucide
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Nuun Bots — Premium Trading EAs, Signals & Courses" },
+      { title: "Nuun Golds — Premium Trading EAs, Signals & Courses" },
       { name: "description", content: "Battle-tested MT4/MT5 expert advisors, VIP Telegram signals, and trading courses. Instant email delivery." },
     ],
   }),
@@ -34,7 +34,7 @@ function Index() {
             </span>
             <h1 className="mt-6 font-display text-4xl sm:text-5xl lg:text-6xl leading-tight">
               Trade smarter with{" "}
-              <span className="text-gradient-gold">Nuun Bots</span>
+              <span className="text-gradient-gold">Nuun Golds</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-2xl">
               Battle-tested expert advisors, hand-picked VIP signals, and the courses that make
@@ -97,7 +97,7 @@ function Index() {
 
       {/* Why */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-24">
-        <h2 className="font-display text-3xl text-center">Why traders pick Nuun Bots</h2>
+        <h2 className="font-display text-3xl text-center">Why traders pick Nuun Golds</h2>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {[
             { icon: Shield, title: "Risk-first design", desc: "Every EA ships with built-in equity protection and configurable risk caps." },

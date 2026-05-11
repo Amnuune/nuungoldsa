@@ -7,8 +7,8 @@ import { ArrowLeft } from "lucide-react";
 export const Route = createFileRoute("/courses/$slug")({
   head: ({ params }) => ({
     meta: [
-      { title: `${params.slug} — Nuun Bots` },
-      { name: "description", content: `${params.slug} — trading course from Nuun Bots.` },
+      { title: `${params.slug} — Nuun Golds` },
+      { name: "description", content: `${params.slug} — trading course from Nuun Golds.` },
     ],
   }),
   component: CourseDetail,

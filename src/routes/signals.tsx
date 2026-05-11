@@ -7,9 +7,9 @@ import { listProducts } from "@/lib/products.functions";
 export const Route = createFileRoute("/signals")({
   head: () => ({
     meta: [
-      { title: "VIP Signals — Nuun Bots" },
+      { title: "VIP Signals — Nuun Golds" },
       { name: "description", content: "Premium daily trading signals delivered on Telegram. Choose monthly, quarterly, or lifetime access." },
-      { property: "og:title", content: "VIP Signals — Nuun Bots" },
+      { property: "og:title", content: "VIP Signals — Nuun Golds" },
       { property: "og:description", content: "Premium daily trading signals delivered on Telegram." },
     ],
   }),
